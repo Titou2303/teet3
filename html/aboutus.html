@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        *
+        {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            width: 100%;
+            min-height: 100vh;
+        }
+        .container
+        {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .profile
+        {
+            height: 400px;
+            width: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+        .profile img
+        {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .name
+        {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #333;
+        }
+        .description
+        {
+            font-size: 0.8em;
+            font-weight: 300;
+            font-style: italic;
+            color: rgb(150, 148, 148);
+        }
+        .logo
+        {
+            position: relative;
+            top: 15px;
+            left: 15px;
+            height: 60px;
+            width: auto;
+        }
+        @media (max-width: 900px)
+        {
+            .container
+            {
+                min-height: 350vh;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .profile
+            {
+                height: 600px;
+                width: 400px;
+                margin-top: 80px;
+                transform: translateY(80px);
+            }
+            .name
+            {
+                font-size: 1.6em;
+            }
+            .description
+            {
+                font-size: 0.95em;
+            }
+        }
+        @media (max-width: 550px)
+        {
+            .container
+            {
+                min-height: 400vh;
+            }
+            .profile
+            {
+                height: 600px;
+                width: 100%;
+                margin-top: 80px;
+                padding: 0px 30px;
+            }
+            .name
+            {
+                font-size: 1.4em;
+            }
+            .description
+            {
+                font-size: 0.8em;
+            }
+        }
+        @media (max-width: 550px)
+        {
+            .container
+            {
+                min-height: 350vh;
+            }
+        }
+        @media (max-width: 380px)
+        {
+            .container
+            {
+                min-height: 270vh;
+            }
+        }
+    </style>
+    <a href="../../index.html" >
+        <img src="../img/logo.png" alt="logo" class="logo">
+    </a>
+    <div class="container">
+        <div class="profile">
+            <a href="https://mrvieseg.github.io/my-profile/"><img src="../img/AboutUs/Membre1.jpg" alt="member photo"></a>
+            <div class="contentBx">
+                <h2 class="name">Mael Ravy</h2>
+                <p class="description">
+                    Maël Ravy is our first Teet. member, he is currently at the IESEG School of Management in Digital Marketing Master. 
+                </p>
+            </div>
+        </div>
+        <div class="profile">
+            <a href="https://titou2303.github.io/titouan/"><img src="../img/AboutUs/Membre2.jpg" alt="member photo"></a>
+            <div class="contentBx">
+                <h2 class="name">Titouan Niclot</h2>
+                <p class="description">
+                    Titouan comes back from Australia and knows what he's talking about when it comes to travel. Discover his profile now!
+                </p>
+            </div>
+        </div>
+        <div class="profile">
+            <a href="https://noe-lefebvre.github.io/my-profile/"><img src="../img/AboutUs/Membre3.jpeg" alt="member photo"></a>
+            <div class="contentBx">
+                <h2 class="name">Noe Lefebre</h2>
+                <p class="description">
+                   Noé, the president of the IESEG Paris Student Federation is also part of our team. 
+                </p>
+            </div>
+        </div>
+        <div class="profile">
+            <a href="https://lucewi.github.io/my-profile1/"><img src="../img/AboutUs/Membre4.jpg" alt="member photo"></a>
+            <div class="contentBx">
+                <h2 class="name">Luce Wijsenbeek</h2>
+                <p class="description">
+                    Luce is the last member of our team. She also knows a lot about travel but you can find out more by clicking on her profile! 
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

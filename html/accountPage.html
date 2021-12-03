@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teet : Meet</title>
+    <link rel="stylesheet" href="../css/styleNavPage.css">
+</head>
+<body>
+    <style>
+        .content header
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 550px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .content header .userInfo
+        {
+            width: 100%;
+            height: 100px;
+            background-color: rgba(250, 104, 9, 0.71);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content header .userInfo .user
+        {
+            margin-left: 30px;
+            height: 55px;
+            width: auto;
+        }
+
+        .content header .userInfo .logo
+        {
+            margin-right: 45px;
+            height: 70px;
+            width: auto;
+        }
+
+        .content header .nav
+        {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            z-index: 10;
+        }
+    </style>
+    <div class="content">
+        <header>
+            <div class="userInfo">
+                <img class="user" src="../img/sophieInfo.png" alt="User informations">
+                <a href="../../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="./navPage.html">go to navigation page</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="profileSection">
+            <div class="abo">
+                <div class="btncontent"><a href="#" class="btnabo"><img src="../img/abobtn.png" alt=""></a></div>
+                <div class="btncontent"><a href="#" class="btnabo"><img src="../img/abobtn2.png" alt=""></a></div>
+            </div>
+            <div class="settings">
+                <h3>Settings</h3>
+                <a href="#">Manage my bank account</a>
+                <a href="#">My purchases</a>
+                <a href="#">Contact us</a>
+            </div>
+        </section>
+    </div>
+    <div class="rightSide">
+        <img class="sophImg" src="../img/soph.png" alt="profile informations">
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
